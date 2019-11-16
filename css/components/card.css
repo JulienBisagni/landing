@@ -1,0 +1,39 @@
+.flexbox-cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  padding: 32px;
+  margin: auto 32px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card img:hover {
+  transform: rotate(45deg);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 16px 0 16px 0;
+}
+
+.card-subtitle {
+  font-weight: ligher;
+  font-size: 16px;
+  color: #999999;
+}
+
+.card-text{
+  padding: 10px;
+}

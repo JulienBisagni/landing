@@ -1,0 +1,8 @@
+.footer {
+  justify-content: center;
+  padding: 60px;
+}
+
+.links a i {
+  color: red;
+}

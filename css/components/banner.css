@@ -1,0 +1,23 @@
+/* Your card CSS file */
+.banner{
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1564936281499-5987fb28ff7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+}
+
+.banner h1 {
+  font-size: 64px;
+  margin: 0 0 3px 0;
+}
+
+.banner .container h2 {
+  margin: 0 0 40px 0;
+  font-weight: lighter;
+  opacity: 0.9;
+}
